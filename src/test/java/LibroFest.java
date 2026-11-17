@@ -45,7 +45,7 @@ class LibroTest {
         assertTrue(libro.estaDisponible());
     }
 
-    @Disabled("Activar en la actividad de corrección")
+    
     @Test
     void deberiaCompararTitulosPorContenido() {
         Libro libro = new Libro("1984", "George Orwell");
